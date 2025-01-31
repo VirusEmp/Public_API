@@ -33,7 +33,7 @@ This API returns the following information in JSON format:
 - **Response/Request Method**: `GET`
 
 6. Deployment
-- This Public_Api is deployed using Render.com
+- This Public_Api is deployed using `Render.com`
 
   Backlink
-- **url**: https://hng.tech/hire-Python-developers
+- **url**: `https://hng.tech/hire-python-developers/`
