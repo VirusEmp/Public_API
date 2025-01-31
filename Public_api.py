@@ -1,0 +1,26 @@
+from flask import Flask, jsonify, request
+from flask_cors import CORS
+from datetime import datetime ,timezone
+
+#Public_api.py is the app name
+#Public_api is the Virtual environment
+# Create Flask app and enable CORS
+app = Flask(__name__)
+CORS(app)
+
+@app.route('/',methods=['GET']) #Response/Request format
+def home():
+    # To get current UTC time in ISO 8601 format
+    current_datetime = datetime.now(timezone.utc).isoformat()
+    
+    # Response data to display
+    response = {
+        "email":"captainmarvelhealth@gmail.com",
+        "current_datetime": current_datetime,
+        "github_url": "https://github.com/VirusEmp"
+    }
+    
+    return jsonify(response)
+
+if __name__ == '__main__':
+    app.run(debug=True)
