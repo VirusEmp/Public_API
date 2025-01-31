@@ -11,7 +11,7 @@ CORS(app)
 @app.route('/',methods=['GET']) #Response/Request format
 def home():
     # To get current UTC time in ISO 8601 format
-    current_datetime = datetime.utcnow().isoformat(timespec="seconds") + "Z" #Append z for utc format
+    current_datetime = datetime.utcnow().isoformat() + "Z" #Append z for utc format
     
     # Response data to display
     response = {
