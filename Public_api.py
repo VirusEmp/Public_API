@@ -11,13 +11,13 @@ CORS(app)
 @app.route('/',methods=['GET']) #Response/Request format
 def home():
     # To get current UTC time in ISO 8601 format
-    current_datetime = datetime.utcnow().isoformat() + "Z" #Append z for utc format
+    current_datetime = datetime.(timezone.utc).isoformat() + "Z" #Append z for utc format
     
     # Response data to display
     response = {
         "email":"captainmarvelhealth@gmail.com",
         "current_datetime": current_datetime,
-        "github_url": "https://github.com/VirusEmp"
+        "github_url": "https://github.com/VirusEmp/Public_API"
     }
     
     return jsonify(response)
