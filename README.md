@@ -29,7 +29,7 @@ This API returns the following information in JSON format:
 
 
 5. create Endpoint using a hosting service
-- **URL**: `https://Public_Api.render.com/`
+- **URL**: `https://public-api-u19d.onrender.com`
 - **Response/Request Method**: `GET`
 
 6. Deployment
