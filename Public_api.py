@@ -15,7 +15,7 @@ def home():
     
     # Response data to display
     response = {
-        "email":"captainmarvelhealth@gmail.com",
+        "email":"captainmarvelhealth@icloud.com",
         "current_datetime": current_datetime,
         "github_url": "https://github.com/VirusEmp/Public_API"
     }
