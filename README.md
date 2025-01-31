@@ -31,3 +31,9 @@ This API returns the following information in JSON format:
 5. create Endpoint using a hosting service
 - **URL**: `https://Public_Api.render.com/`
 - **Response/Request Method**: `GET`
+
+6. Deployment
+- This Public_Api is deployed using Render.com
+
+  Backlink
+- **url**: https://hng.tech/hire-Python-developers
