@@ -36,4 +36,4 @@ This API returns the following information in JSON format:
 - This Public_Api is deployed using `Render.com`
 
   Backlink
-- **url**: `https://hng.tech/hire-python-developers`
+- **url**: `https://hng.tech/hire/python-developers`

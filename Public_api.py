@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-from datetime import datetime ,timezone
+from datetime import datetime 
 
 #Public_api.py is the app name
 #Public_api is the Virtual environment
@@ -11,7 +11,7 @@ CORS(app)
 @app.route('/',methods=['GET']) #Response/Request format
 def home():
     # To get current UTC time in ISO 8601 format
-    current_datetime = datetime.now(timezone.utc).isoformat(timespec="seconds") + "Z" #Append z for utc format
+    current_datetime = datetime.utcnow().isoformat(timespec="seconds") + "Z" #Append z for utc format
     
     # Response data to display
     response = {
